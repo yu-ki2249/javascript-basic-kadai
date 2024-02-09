@@ -5,4 +5,7 @@ let bodyWeight = 68;
 let height = 1.7;
 
 //計算式
-console.log(bodyWeight/(height*height));
+let bmiFormula = (68/(1.7*1.7));
+
+//コンソールに表示
+console.log(bmiFormula);
