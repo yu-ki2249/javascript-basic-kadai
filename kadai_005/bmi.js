@@ -9,3 +9,5 @@ let bmiFormula = (68/(1.7*1.7));
 
 //コンソールに表示
 console.log(bmiFormula);
+
+
