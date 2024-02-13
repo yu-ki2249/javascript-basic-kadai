@@ -1,8 +1,12 @@
-// 関数
-const yearMonthDate = new Date();
-const year = yearMonthDate.getFullYear();
-const month = yearMonthDate.getMonth();
-const date = yearMonthDate.getDate();
-   
-// コンソールで出力
-console.log(year + '年', month + '月', date + '日');
+// 宣言
+const today  = new Date();
+
+// 関数の作成
+const yearMonthDate = () => {
+    console.log(today.getFullYear() + '年');
+    console.log(today.getMonth() + 1 + '月');
+    console.log(today.getDate() + '日');
+}
+
+// 関数を呼び出す
+yearMonthDate();
